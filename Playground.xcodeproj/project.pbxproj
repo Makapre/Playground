@@ -14,6 +14,45 @@
 		F7C673BB2A8A280400C7CEF3 /* PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673BA2A8A280400C7CEF3 /* PlaygroundTests.swift */; };
 		F7C673C52A8A280400C7CEF3 /* PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673C42A8A280400C7CEF3 /* PlaygroundUITests.swift */; };
 		F7C673C72A8A280400C7CEF3 /* PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673C62A8A280400C7CEF3 /* PlaygroundUITestsLaunchTests.swift */; };
+		F7C673D52A8A285F00C7CEF3 /* Gauges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673D42A8A285F00C7CEF3 /* Gauges.swift */; };
+		F7C673D62A8A285F00C7CEF3 /* Gauges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673D42A8A285F00C7CEF3 /* Gauges.swift */; };
+		F7C673D72A8A285F00C7CEF3 /* Gauges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673D42A8A285F00C7CEF3 /* Gauges.swift */; };
+		F7C673D92A8A2A1F00C7CEF3 /* SimpleGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673D82A8A2A1F00C7CEF3 /* SimpleGauge.swift */; };
+		F7C673DA2A8A2A1F00C7CEF3 /* SimpleGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673D82A8A2A1F00C7CEF3 /* SimpleGauge.swift */; };
+		F7C673DB2A8A2A1F00C7CEF3 /* SimpleGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673D82A8A2A1F00C7CEF3 /* SimpleGauge.swift */; };
+		F7C673DD2A8A2AC200C7CEF3 /* LabledGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673DC2A8A2AC200C7CEF3 /* LabledGauge.swift */; };
+		F7C673DE2A8A2AC200C7CEF3 /* LabledGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673DC2A8A2AC200C7CEF3 /* LabledGauge.swift */; };
+		F7C673DF2A8A2AC200C7CEF3 /* LabledGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673DC2A8A2AC200C7CEF3 /* LabledGauge.swift */; };
+		F7C673E12A8A2CD300C7CEF3 /* CircularGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673E02A8A2CD300C7CEF3 /* CircularGauge.swift */; };
+		F7C673E22A8A2CD300C7CEF3 /* CircularGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673E02A8A2CD300C7CEF3 /* CircularGauge.swift */; };
+		F7C673E32A8A2CD300C7CEF3 /* CircularGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673E02A8A2CD300C7CEF3 /* CircularGauge.swift */; };
+		F7C673E52A8A2DDF00C7CEF3 /* CapacityGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673E42A8A2DDF00C7CEF3 /* CapacityGauge.swift */; };
+		F7C673E62A8A2DDF00C7CEF3 /* CapacityGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673E42A8A2DDF00C7CEF3 /* CapacityGauge.swift */; };
+		F7C673E72A8A2DDF00C7CEF3 /* CapacityGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673E42A8A2DDF00C7CEF3 /* CapacityGauge.swift */; };
+		F7C673E92A8A2E5400C7CEF3 /* CircularGradientGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673E82A8A2E5400C7CEF3 /* CircularGradientGauge.swift */; };
+		F7C673EA2A8A2E5400C7CEF3 /* CircularGradientGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673E82A8A2E5400C7CEF3 /* CircularGradientGauge.swift */; };
+		F7C673EB2A8A2E5400C7CEF3 /* CircularGradientGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673E82A8A2E5400C7CEF3 /* CircularGradientGauge.swift */; };
+		F7C673ED2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673EC2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift */; };
+		F7C673EE2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673EC2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift */; };
+		F7C673EF2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673EC2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift */; };
+		F7C673F12A8A309A00C7CEF3 /* SliderGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673F02A8A309A00C7CEF3 /* SliderGauge.swift */; };
+		F7C673F22A8A309A00C7CEF3 /* SliderGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673F02A8A309A00C7CEF3 /* SliderGauge.swift */; };
+		F7C673F32A8A309A00C7CEF3 /* SliderGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673F02A8A309A00C7CEF3 /* SliderGauge.swift */; };
+		F7C673F62A8A323600C7CEF3 /* ProgressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673F52A8A323600C7CEF3 /* ProgressViews.swift */; };
+		F7C673F72A8A323600C7CEF3 /* ProgressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673F52A8A323600C7CEF3 /* ProgressViews.swift */; };
+		F7C673F82A8A323600C7CEF3 /* ProgressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673F52A8A323600C7CEF3 /* ProgressViews.swift */; };
+		F7C673FA2A8A32F100C7CEF3 /* SimpleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673F92A8A32F100C7CEF3 /* SimpleProgressView.swift */; };
+		F7C673FB2A8A32F100C7CEF3 /* SimpleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673F92A8A32F100C7CEF3 /* SimpleProgressView.swift */; };
+		F7C673FC2A8A32F100C7CEF3 /* SimpleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673F92A8A32F100C7CEF3 /* SimpleProgressView.swift */; };
+		F7C673FE2A8A338900C7CEF3 /* RelativeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673FD2A8A338900C7CEF3 /* RelativeProgressView.swift */; };
+		F7C673FF2A8A338900C7CEF3 /* RelativeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673FD2A8A338900C7CEF3 /* RelativeProgressView.swift */; };
+		F7C674002A8A338900C7CEF3 /* RelativeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673FD2A8A338900C7CEF3 /* RelativeProgressView.swift */; };
+		F7C674022A8A33F700C7CEF3 /* RotateProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674012A8A33F700C7CEF3 /* RotateProgressView.swift */; };
+		F7C674032A8A33F700C7CEF3 /* RotateProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674012A8A33F700C7CEF3 /* RotateProgressView.swift */; };
+		F7C674042A8A33F800C7CEF3 /* RotateProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674012A8A33F700C7CEF3 /* RotateProgressView.swift */; };
+		F7C674062A8A342100C7CEF3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */; };
+		F7C674072A8A342100C7CEF3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */; };
+		F7C674082A8A342100C7CEF3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +83,19 @@
 		F7C673C02A8A280400C7CEF3 /* PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C673C42A8A280400C7CEF3 /* PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundUITests.swift; sourceTree = "<group>"; };
 		F7C673C62A8A280400C7CEF3 /* PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7C673D42A8A285F00C7CEF3 /* Gauges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauges.swift; sourceTree = "<group>"; };
+		F7C673D82A8A2A1F00C7CEF3 /* SimpleGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGauge.swift; sourceTree = "<group>"; };
+		F7C673DC2A8A2AC200C7CEF3 /* LabledGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabledGauge.swift; sourceTree = "<group>"; };
+		F7C673E02A8A2CD300C7CEF3 /* CircularGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularGauge.swift; sourceTree = "<group>"; };
+		F7C673E42A8A2DDF00C7CEF3 /* CapacityGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacityGauge.swift; sourceTree = "<group>"; };
+		F7C673E82A8A2E5400C7CEF3 /* CircularGradientGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularGradientGauge.swift; sourceTree = "<group>"; };
+		F7C673EC2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacityGradientGauge.swift; sourceTree = "<group>"; };
+		F7C673F02A8A309A00C7CEF3 /* SliderGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGauge.swift; sourceTree = "<group>"; };
+		F7C673F52A8A323600C7CEF3 /* ProgressViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViews.swift; sourceTree = "<group>"; };
+		F7C673F92A8A32F100C7CEF3 /* SimpleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleProgressView.swift; sourceTree = "<group>"; };
+		F7C673FD2A8A338900C7CEF3 /* RelativeProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeProgressView.swift; sourceTree = "<group>"; };
+		F7C674012A8A33F700C7CEF3 /* RotateProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateProgressView.swift; sourceTree = "<group>"; };
+		F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +146,8 @@
 		F7C673A82A8A280200C7CEF3 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				F7C673F42A8A322400C7CEF3 /* ProgressViews */,
+				F7C673D32A8A282600C7CEF3 /* Gauges */,
 				F7C673A92A8A280200C7CEF3 /* PlaygroundApp.swift */,
 				F7C673AB2A8A280200C7CEF3 /* ContentView.swift */,
 				F7C673AD2A8A280400C7CEF3 /* Assets.xcassets */,
@@ -125,6 +179,33 @@
 				F7C673C62A8A280400C7CEF3 /* PlaygroundUITestsLaunchTests.swift */,
 			);
 			path = PlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		F7C673D32A8A282600C7CEF3 /* Gauges */ = {
+			isa = PBXGroup;
+			children = (
+				F7C673D42A8A285F00C7CEF3 /* Gauges.swift */,
+				F7C673D82A8A2A1F00C7CEF3 /* SimpleGauge.swift */,
+				F7C673DC2A8A2AC200C7CEF3 /* LabledGauge.swift */,
+				F7C673E02A8A2CD300C7CEF3 /* CircularGauge.swift */,
+				F7C673E42A8A2DDF00C7CEF3 /* CapacityGauge.swift */,
+				F7C673E82A8A2E5400C7CEF3 /* CircularGradientGauge.swift */,
+				F7C673EC2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift */,
+				F7C673F02A8A309A00C7CEF3 /* SliderGauge.swift */,
+			);
+			path = Gauges;
+			sourceTree = "<group>";
+		};
+		F7C673F42A8A322400C7CEF3 /* ProgressViews */ = {
+			isa = PBXGroup;
+			children = (
+				F7C673F52A8A323600C7CEF3 /* ProgressViews.swift */,
+				F7C673F92A8A32F100C7CEF3 /* SimpleProgressView.swift */,
+				F7C673FD2A8A338900C7CEF3 /* RelativeProgressView.swift */,
+				F7C674012A8A33F700C7CEF3 /* RotateProgressView.swift */,
+				F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */,
+			);
+			path = ProgressViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +338,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C673E12A8A2CD300C7CEF3 /* CircularGauge.swift in Sources */,
+				F7C673FA2A8A32F100C7CEF3 /* SimpleProgressView.swift in Sources */,
+				F7C673DD2A8A2AC200C7CEF3 /* LabledGauge.swift in Sources */,
 				F7C673AC2A8A280200C7CEF3 /* ContentView.swift in Sources */,
+				F7C674022A8A33F700C7CEF3 /* RotateProgressView.swift in Sources */,
+				F7C673ED2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift in Sources */,
+				F7C673F12A8A309A00C7CEF3 /* SliderGauge.swift in Sources */,
+				F7C673FE2A8A338900C7CEF3 /* RelativeProgressView.swift in Sources */,
 				F7C673AA2A8A280200C7CEF3 /* PlaygroundApp.swift in Sources */,
+				F7C673E92A8A2E5400C7CEF3 /* CircularGradientGauge.swift in Sources */,
+				F7C673E52A8A2DDF00C7CEF3 /* CapacityGauge.swift in Sources */,
+				F7C673F62A8A323600C7CEF3 /* ProgressViews.swift in Sources */,
+				F7C673D52A8A285F00C7CEF3 /* Gauges.swift in Sources */,
+				F7C674062A8A342100C7CEF3 /* CircularProgressView.swift in Sources */,
+				F7C673D92A8A2A1F00C7CEF3 /* SimpleGauge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +360,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C673F22A8A309A00C7CEF3 /* SliderGauge.swift in Sources */,
+				F7C673FF2A8A338900C7CEF3 /* RelativeProgressView.swift in Sources */,
+				F7C673F72A8A323600C7CEF3 /* ProgressViews.swift in Sources */,
+				F7C673DA2A8A2A1F00C7CEF3 /* SimpleGauge.swift in Sources */,
+				F7C673DE2A8A2AC200C7CEF3 /* LabledGauge.swift in Sources */,
+				F7C674032A8A33F700C7CEF3 /* RotateProgressView.swift in Sources */,
 				F7C673BB2A8A280400C7CEF3 /* PlaygroundTests.swift in Sources */,
+				F7C673EE2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift in Sources */,
+				F7C673D62A8A285F00C7CEF3 /* Gauges.swift in Sources */,
+				F7C673E22A8A2CD300C7CEF3 /* CircularGauge.swift in Sources */,
+				F7C674072A8A342100C7CEF3 /* CircularProgressView.swift in Sources */,
+				F7C673E62A8A2DDF00C7CEF3 /* CapacityGauge.swift in Sources */,
+				F7C673FB2A8A32F100C7CEF3 /* SimpleProgressView.swift in Sources */,
+				F7C673EA2A8A2E5400C7CEF3 /* CircularGradientGauge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +381,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C673E32A8A2CD300C7CEF3 /* CircularGauge.swift in Sources */,
+				F7C673FC2A8A32F100C7CEF3 /* SimpleProgressView.swift in Sources */,
+				F7C673DF2A8A2AC200C7CEF3 /* LabledGauge.swift in Sources */,
 				F7C673C52A8A280400C7CEF3 /* PlaygroundUITests.swift in Sources */,
+				F7C674042A8A33F800C7CEF3 /* RotateProgressView.swift in Sources */,
+				F7C673EF2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift in Sources */,
+				F7C673F32A8A309A00C7CEF3 /* SliderGauge.swift in Sources */,
+				F7C674002A8A338900C7CEF3 /* RelativeProgressView.swift in Sources */,
 				F7C673C72A8A280400C7CEF3 /* PlaygroundUITestsLaunchTests.swift in Sources */,
+				F7C673EB2A8A2E5400C7CEF3 /* CircularGradientGauge.swift in Sources */,
+				F7C673E72A8A2DDF00C7CEF3 /* CapacityGauge.swift in Sources */,
+				F7C673F82A8A323600C7CEF3 /* ProgressViews.swift in Sources */,
+				F7C673D72A8A285F00C7CEF3 /* Gauges.swift in Sources */,
+				F7C674082A8A342100C7CEF3 /* CircularProgressView.swift in Sources */,
+				F7C673DB2A8A2A1F00C7CEF3 /* SimpleGauge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +552,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.makapre.Playground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,6 +584,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.makapre.Playground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
