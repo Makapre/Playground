@@ -96,6 +96,7 @@
 		F7C673FD2A8A338900C7CEF3 /* RelativeProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeProgressView.swift; sourceTree = "<group>"; };
 		F7C674012A8A33F700C7CEF3 /* RotateProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateProgressView.swift; sourceTree = "<group>"; };
 		F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		F7C674092A8A8A9700C7CEF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +127,7 @@
 		F7C6739D2A8A280200C7CEF3 = {
 			isa = PBXGroup;
 			children = (
+				F7C674092A8A8A9700C7CEF3 /* README.md */,
 				F7C673A82A8A280200C7CEF3 /* Playground */,
 				F7C673B92A8A280400C7CEF3 /* PlaygroundTests */,
 				F7C673C32A8A280400C7CEF3 /* PlaygroundUITests */,

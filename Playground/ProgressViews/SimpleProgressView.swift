@@ -17,6 +17,7 @@ struct SimpleProgressView: View {
             ProgressView(value: current) {
                 Text("Loading")
             }
+            .tint(.purple)
         }
     }
 }
