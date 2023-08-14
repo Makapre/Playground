@@ -53,6 +53,12 @@
 		F7C674062A8A342100C7CEF3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */; };
 		F7C674072A8A342100C7CEF3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */; };
 		F7C674082A8A342100C7CEF3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */; };
+		F7C6740C2A8A95C500C7CEF3 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C6740B2A8A95C500C7CEF3 /* Pickers.swift */; };
+		F7C6740E2A8A960500C7CEF3 /* SimplePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C6740D2A8A960500C7CEF3 /* SimplePicker.swift */; };
+		F7C674102A8A96CE00C7CEF3 /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C6740F2A8A96CE00C7CEF3 /* SegmentPicker.swift */; };
+		F7C674122A8A975100C7CEF3 /* SampleDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674112A8A975100C7CEF3 /* SampleDatePicker.swift */; };
+		F7C674142A8A97E500C7CEF3 /* SampleDatePickerGraphical.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674132A8A97E500C7CEF3 /* SampleDatePickerGraphical.swift */; };
+		F7C674162A8A984200C7CEF3 /* SampleDatePickerWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C674152A8A984200C7CEF3 /* SampleDatePickerWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +103,12 @@
 		F7C674012A8A33F700C7CEF3 /* RotateProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateProgressView.swift; sourceTree = "<group>"; };
 		F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		F7C674092A8A8A9700C7CEF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F7C6740B2A8A95C500C7CEF3 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		F7C6740D2A8A960500C7CEF3 /* SimplePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePicker.swift; sourceTree = "<group>"; };
+		F7C6740F2A8A96CE00C7CEF3 /* SegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentPicker.swift; sourceTree = "<group>"; };
+		F7C674112A8A975100C7CEF3 /* SampleDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDatePicker.swift; sourceTree = "<group>"; };
+		F7C674132A8A97E500C7CEF3 /* SampleDatePickerGraphical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDatePickerGraphical.swift; sourceTree = "<group>"; };
+		F7C674152A8A984200C7CEF3 /* SampleDatePickerWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDatePickerWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +160,7 @@
 		F7C673A82A8A280200C7CEF3 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				F7C6740A2A8A95BA00C7CEF3 /* Pickers */,
 				F7C673F42A8A322400C7CEF3 /* ProgressViews */,
 				F7C673D32A8A282600C7CEF3 /* Gauges */,
 				F7C673A92A8A280200C7CEF3 /* PlaygroundApp.swift */,
@@ -208,6 +221,19 @@
 				F7C674052A8A342100C7CEF3 /* CircularProgressView.swift */,
 			);
 			path = ProgressViews;
+			sourceTree = "<group>";
+		};
+		F7C6740A2A8A95BA00C7CEF3 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				F7C6740B2A8A95C500C7CEF3 /* Pickers.swift */,
+				F7C6740D2A8A960500C7CEF3 /* SimplePicker.swift */,
+				F7C6740F2A8A96CE00C7CEF3 /* SegmentPicker.swift */,
+				F7C674112A8A975100C7CEF3 /* SampleDatePicker.swift */,
+				F7C674132A8A97E500C7CEF3 /* SampleDatePickerGraphical.swift */,
+				F7C674152A8A984200C7CEF3 /* SampleDatePickerWheel.swift */,
+			);
+			path = Pickers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,13 +369,19 @@
 				F7C673E12A8A2CD300C7CEF3 /* CircularGauge.swift in Sources */,
 				F7C673FA2A8A32F100C7CEF3 /* SimpleProgressView.swift in Sources */,
 				F7C673DD2A8A2AC200C7CEF3 /* LabledGauge.swift in Sources */,
+				F7C674142A8A97E500C7CEF3 /* SampleDatePickerGraphical.swift in Sources */,
 				F7C673AC2A8A280200C7CEF3 /* ContentView.swift in Sources */,
 				F7C674022A8A33F700C7CEF3 /* RotateProgressView.swift in Sources */,
 				F7C673ED2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift in Sources */,
 				F7C673F12A8A309A00C7CEF3 /* SliderGauge.swift in Sources */,
 				F7C673FE2A8A338900C7CEF3 /* RelativeProgressView.swift in Sources */,
+				F7C674122A8A975100C7CEF3 /* SampleDatePicker.swift in Sources */,
+				F7C6740E2A8A960500C7CEF3 /* SimplePicker.swift in Sources */,
 				F7C673AA2A8A280200C7CEF3 /* PlaygroundApp.swift in Sources */,
+				F7C6740C2A8A95C500C7CEF3 /* Pickers.swift in Sources */,
+				F7C674102A8A96CE00C7CEF3 /* SegmentPicker.swift in Sources */,
 				F7C673E92A8A2E5400C7CEF3 /* CircularGradientGauge.swift in Sources */,
+				F7C674162A8A984200C7CEF3 /* SampleDatePickerWheel.swift in Sources */,
 				F7C673E52A8A2DDF00C7CEF3 /* CapacityGauge.swift in Sources */,
 				F7C673F62A8A323600C7CEF3 /* ProgressViews.swift in Sources */,
 				F7C673D52A8A285F00C7CEF3 /* Gauges.swift in Sources */,

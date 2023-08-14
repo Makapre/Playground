@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProgressViews: View {
+struct ProgressViews: View {    
     var body: some View {
         List {
             SimpleProgressView()

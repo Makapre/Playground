@@ -18,6 +18,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Progress", systemImage: "arrow.clockwise")
                 }
+            Pickers()
+                .tabItem {
+                    Label("Pickers", systemImage: "filemenu.and.cursorarrow")
+                }
         }
     }
 }
