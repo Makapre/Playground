@@ -22,6 +22,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Pickers", systemImage: "filemenu.and.cursorarrow")
                 }
+            Misc()
+                .tabItem {
+                    Label("Misc", systemImage: "ellipsis.circle")
+                }
         }
     }
 }

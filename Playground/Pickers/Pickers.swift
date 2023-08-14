@@ -14,6 +14,9 @@ struct Pickers: View {
                 SimplePicker()
                 SegmentPicker()
             }
+            Section("Color") {
+                SampleColorPicker()
+            }
             Section("Dates") {
                 SampleDatePicker()
                 SampleDatePickerGraphical()
