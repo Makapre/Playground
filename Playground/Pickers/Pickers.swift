@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct Pickers: View {
+    @State private var fav: Int = 1
+    
     var body: some View {
         List {
             Section("Pickers") {
-                SimplePicker()
-                SegmentPicker()
+                SimplePicker(fav: $fav)
+                SegmentPicker(fav: $fav)
             }
             Section("Color") {
                 SampleColorPicker()

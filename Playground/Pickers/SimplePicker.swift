@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SimplePicker: View {
-    @State private var fav = 1
+    @Binding var fav: Int
     
     var body: some View {
         Picker("States", selection: $fav) {
@@ -16,11 +16,5 @@ struct SimplePicker: View {
             Text("HH").tag(2)
             Text("SH").tag(1)
         }
-    }
-}
-
-struct SimplePicker_Previews: PreviewProvider {
-    static var previews: some View {
-        SimplePicker()
     }
 }
