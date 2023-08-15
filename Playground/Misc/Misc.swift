@@ -12,7 +12,7 @@ struct Misc: View {
     @State private var stepperCurrent = 0
     
     let step = 1
-    let range = 1...50
+    let range = 0...50
     
     var body: some View {
         List {
@@ -32,6 +32,16 @@ struct Misc: View {
                 ShareLink("Share URL", item: URL(string: "https://developer.apple.com/xcode/swiftui/")!)
                 ShareLink(item: URL(string: "https://developer.apple.com/xcode/swiftui/")!) {
                     Label("Share URL", systemImage: "link")
+                }
+            }
+            Section("Disclosure View") {
+                DisclosureGroup("Group 1") {
+                    Text("a")
+                    Text("b")
+                }
+                DisclosureGroup("Group 2") {
+                    Text("c")
+                    Text("d")
                 }
             }
         }

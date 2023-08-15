@@ -5,4 +5,12 @@ More infos are coming...
 
 ## Wanna do
 
+## Done
+
+- Gauges in every taste
+- Pickers
+- Progress views
 - DisclosureGroup
+- Toggle
+- Stepper
+- ShareLink

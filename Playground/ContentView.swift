@@ -7,26 +7,62 @@
 
 import SwiftUI
 
+enum Views: String, CaseIterable {
+    case gauge, progress, pickers, misc
+}
+
 struct ContentView: View {
+    private var idiom : UIUserInterfaceIdiom { UIDevice.current.userInterfaceIdiom }
+    
+    @State private var selection: Views? = Views.gauge
+
     var body: some View {
-        TabView {
-            Gauges()
-                .tabItem {
-                    Label("Gauges", systemImage: "gauge")
+        if idiom == .pad {
+            NavigationSplitView {
+                List(Views.allCases, id: \.self, selection: $selection) { view in
+                    NavigationLink(view.rawValue.capitalized, value: view)
                 }
-            ProgressViews()
-                .tabItem {
-                    Label("Progress", systemImage: "arrow.clockwise")
+                .navigationTitle("Playgrounds")
+            } detail: {
+                if let view = selection {
+                    switch view {
+                        case .gauge:
+                            Gauges()
+                        case .progress:
+                            ProgressViews()
+                        case .pickers:
+                            Pickers()
+                        case .misc:
+                            Misc()
+                    }
+                } else {
+                    Text("Pick from leftside")
                 }
-            Pickers()
-                .tabItem {
-                    Label("Pickers", systemImage: "filemenu.and.cursorarrow")
-                }
-            Misc()
-                .tabItem {
-                    Label("Misc", systemImage: "ellipsis.circle")
-                }
+            }
+        } else {
+            tabview
         }
+    }
+}
+
+private var tabview: some View {
+    TabView {
+        Gauges()
+            .tabItem {
+                Label("Gauges", systemImage: "gauge")
+            }
+        ProgressViews()
+            .tabItem {
+                Label("Progress", systemImage: "arrow.clockwise")
+            }
+        Pickers()
+            .tabItem {
+                Label("Pickers", systemImage: "filemenu.and.cursorarrow")
+            }
+        Misc()
+            .tabItem {
+                Label("Misc", systemImage: "ellipsis.circle")
+            }
     }
 }
 
