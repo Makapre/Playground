@@ -14,3 +14,5 @@ More infos are coming...
 - Toggle
 - Stepper
 - ShareLink
+- Swipe Gestures
+- Context Menu

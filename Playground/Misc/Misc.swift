@@ -10,6 +10,7 @@ import SwiftUI
 struct Misc: View {
     @State private var vibrateOnRing = false
     @State private var stepperCurrent = 0
+    @State private var changeColor = true
     
     let step = 1
     let range = 0...50
@@ -42,6 +43,34 @@ struct Misc: View {
                 DisclosureGroup("Group 2") {
                     Text("c")
                     Text("d")
+                }
+            }
+            Section("Swipy swipe swipe") {
+                HStack {
+                    Spacer()
+                    Label("swipe me horizontally", systemImage: changeColor ? "arrow.right" : "arrow.left")
+                        .foregroundStyle(changeColor ? .green : .red)
+                        .swipe(
+                            left: {
+                                if !changeColor {
+                                    print("swipe left")
+                                    changeColor = true
+                                }
+                            }, right: {
+                                if changeColor {
+                                    print("swipe right")
+                                    changeColor = false
+                                }
+                            }
+                        )
+                        .contextMenu {
+                            Button {
+                                print("click")
+                            } label: {
+                                Label("Delete", systemImage: "trash")
+                            }
+                        }
+                    Spacer()
                 }
             }
         }

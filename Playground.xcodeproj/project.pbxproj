@@ -17,6 +17,7 @@
 		F776A7D02A8E732600B6F853 /* PlaygroundWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F776A7C02A8E732400B6F853 /* PlaygroundWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F776A7D52A8E773000B6F853 /* SimpleGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673D82A8A2A1F00C7CEF3 /* SimpleGauge.swift */; };
 		F776A7D62A8E775B00B6F853 /* CircularGradientGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673E82A8A2E5400C7CEF3 /* CircularGradientGauge.swift */; };
+		F789CE8C2A98982E00A8085A /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789CE8B2A98982E00A8085A /* View+Extension.swift */; };
 		F7C673AA2A8A280200C7CEF3 /* PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673A92A8A280200C7CEF3 /* PlaygroundApp.swift */; };
 		F7C673AC2A8A280200C7CEF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C673AB2A8A280200C7CEF3 /* ContentView.swift */; };
 		F7C673AE2A8A280400C7CEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C673AD2A8A280400C7CEF3 /* Assets.xcassets */; };
@@ -120,6 +121,7 @@
 		F776A7C82A8E732400B6F853 /* PlaygroundWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = PlaygroundWidget.intentdefinition; sourceTree = "<group>"; };
 		F776A7C92A8E732600B6F853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F776A7CB2A8E732600B6F853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F789CE8B2A98982E00A8085A /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		F7C673A62A8A280200C7CEF3 /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C673A92A8A280200C7CEF3 /* PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundApp.swift; sourceTree = "<group>"; };
 		F7C673AB2A8A280200C7CEF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -209,6 +211,14 @@
 			path = PlaygroundWidget;
 			sourceTree = "<group>";
 		};
+		F789CE8A2A98981D00A8085A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F789CE8B2A98982E00A8085A /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F7C6739D2A8A280200C7CEF3 = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +246,7 @@
 		F7C673A82A8A280200C7CEF3 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				F789CE8A2A98981D00A8085A /* Extensions */,
 				F7C674172A8A9A1000C7CEF3 /* Misc */,
 				F7C6740A2A8A95BA00C7CEF3 /* Pickers */,
 				F7C673F42A8A322400C7CEF3 /* ProgressViews */,
@@ -502,6 +513,7 @@
 				F7C674142A8A97E500C7CEF3 /* SampleDatePickerGraphical.swift in Sources */,
 				F7C673AC2A8A280200C7CEF3 /* ContentView.swift in Sources */,
 				F7C674192A8A9A1B00C7CEF3 /* Misc.swift in Sources */,
+				F789CE8C2A98982E00A8085A /* View+Extension.swift in Sources */,
 				F7C674022A8A33F700C7CEF3 /* RotateProgressView.swift in Sources */,
 				F7C673ED2A8A2FE100C7CEF3 /* CapacityGradientGauge.swift in Sources */,
 				F7C6741B2A8A9DC600C7CEF3 /* SampleColorPicker.swift in Sources */,
