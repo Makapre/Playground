@@ -9,15 +9,19 @@ import SwiftUI
 
 struct Gauges: View {    
     var body: some View {
-        List {
-            SimpleGauge()
-            LabledGauge()
-            CircularGauge()
-            CapacityGauge()
-            CircularGradientGauge()
-            CapacityGradientGauge()
-            SliderGauge()
-         }
+        NavigationView {
+            List {
+                SimpleGauge()
+                LabledGauge()
+                CircularGauge()
+                CapacityGauge()
+                CircularGradientGauge()
+                CapacityGradientGauge()
+                SliderGauge()
+            }
+            .navigationTitle("Gauges")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 

@@ -16,3 +16,5 @@ More infos are coming...
 - ShareLink
 - Swipe Gestures
 - Context Menu
+- Mask
+    - withAnimation

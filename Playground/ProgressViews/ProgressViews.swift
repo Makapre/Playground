@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ProgressViews: View {    
     var body: some View {
-        List {
-            SimpleProgressView()
-            RelativeProgressView()
-            RotateProgressView()
-            #if os(macOS)
-                CircularProgressView()
-            #endif
+        NavigationView {
+            List {
+                SimpleProgressView()
+                RelativeProgressView()
+                RotateProgressView()
+                #if os(macOS)
+                    CircularProgressView()
+                #endif
+            }
+            .navigationTitle("Progress Views")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
