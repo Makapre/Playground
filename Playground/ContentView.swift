@@ -63,6 +63,10 @@ private var tabview: some View {
             .tabItem {
                 Label("Misc", systemImage: "ellipsis.circle")
             }
+        Scrolls()
+            .tabItem {
+                Label("Scrolls", systemImage: "arrow.up.arrow.down")
+            }
     }
 }
 
